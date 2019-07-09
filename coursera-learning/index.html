@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="App">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Module 1 Coding Assignment</title>
+    <script src="libs/js/angular.min.js"></script>
+    <script src="resources/js/app.js"></script>
+  </head>
+  <body ng-controller="AppController">
+    <h1>Module 1 Coding Assignment</h1>
+    <input
+      ng-model="items"
+      type="text"
+      placeholder="Items that usually eat for lunch..."
+    />
+    <button ng-click="check()">Check if Too Much</button>
+    <hr />
+    <p>
+      {{ message }}
+    </p>
+  </body>
+</html>
